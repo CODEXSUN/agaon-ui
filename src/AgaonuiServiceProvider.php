@@ -25,7 +25,15 @@ class AgaonuiServiceProvider extends ServiceProvider
     protected function configureComponents()
     {
         $this->callAfterResolving(BladeCompiler::class, function () {
-            $this->registerComponent('alert');
+
+            $this->registerComponent('alerts.flash');
+
+            $this->registerComponent('icons.icon');
+            $this->registerComponent('logos.cxlogo');
+
+            $this->registerComponent('forms.lists.index-master');
+
+            $this->registerComponent('table.lists.index-master');
         });
     }
 
