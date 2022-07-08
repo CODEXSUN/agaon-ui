@@ -1,7 +1,7 @@
 {
   "name": "codexsun/agaonui",
   "description": "Refreshing UI",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "minimum-stability": "stable",
   "license": "MIT",
   "type": "library",
